@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:GeminiDesktopClient"
         xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
         mc:Ignorable="d"
-        Title="Gemini" Height="720" Width="1280" Icon="gemini_icon.ico">
+        Title="Gemini" Height="720" Width="1280" Icon="gemini_icon.ico"
+        WindowStartupLocation="CenterScreen">
     <Grid Background="#202124">
         <wv2:WebView2 Name="webView" Source="https://gemini.google.com" CoreWebView2InitializationCompleted="WebView_CoreWebView2InitializationCompleted" Visibility="Collapsed"/>
     </Grid>
